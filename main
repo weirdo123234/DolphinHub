@@ -1,1 +1,6 @@
-
+-- execute this code!
+local text = "Woah, how'd you find this!";
+local msg = Instance.new("Message", workspace);
+msg.Text = text;
+task.wait(5);
+msg:Destroy();
