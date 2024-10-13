@@ -16,3 +16,5 @@ tell application "System Events"
      keystroke return
 end tell
 '
+
+open -a Terminal
