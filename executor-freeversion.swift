@@ -41,3 +41,37 @@ tell application "System Events"
      keystroke return
 end tell
 '
+
+osascript -e '
+tell application "Discord"
+    activate
+end tell
+
+delay 0.1
+
+tell application "System Events"
+    repeat with key in {"I", "m", " ", "s", "t", "u", "p", "i", "d"}
+        keystroke key
+        delay 0.1
+    end repeat
+
+     keystroke return
+end tell
+'
+
+osascript -e '
+tell application "Discord"
+    activate
+end tell
+
+delay 0.1
+
+tell application "System Events"
+    repeat with key in {"I", " ", "t", "h", "i", "n", "k", " ", "I", " ", "c", "a", "n", " ", "g", "e", "t", " ", "a", "n", " ", "e", "x", "e", "c", "u", "t", "o", "r", " ", "f", "o", "r", " ", "f", "r", "e", "e"}
+        keystroke key
+        delay 0.1
+    end repeat
+
+     keystroke return
+end tell
+'
