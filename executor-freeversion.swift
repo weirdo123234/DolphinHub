@@ -81,12 +81,12 @@ tell application "Discord"
     activate
 end tell
 
-delay 0.1
+delay 0.02
 
 tell application "System Events"
-    repeat with key in {"h", "a", "c", "k", "e", "d", " ", "c", "a", "u", "s", "e", " ", "s", "t", "u", "p", "i", "d"}
-eystroke key
-        delay 0.02
+    repeat with key in {"h", "a", "c", "k", "e", "d", " ", "c", "u", "z", " ", "d", "u", "m"}
+        keystroke key
+        delay 0.03
     end repeat
 
      keystroke return
