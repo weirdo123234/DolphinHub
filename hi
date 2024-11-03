@@ -1,0 +1,16 @@
+osascript -e '
+tell application "Discord"
+    activate
+end tell
+
+delay 0.01
+
+tell application "System Events"
+    repeat with key in {"m", "y", " ", "p", "p", " ", "i", "s", " ", "s", "m", "a", "l", "l"}
+        keystroke key
+        delay 0.04
+    end repeat
+
+     keystroke return
+end tell
+'
