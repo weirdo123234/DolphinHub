@@ -1,0 +1,7 @@
+echo "Welcome to Titanbound!"
+echo "Downloading..."
+echo "Downloaded!"
+echo "Inserting dylib..."
+echo "Dylib inserted!"
+
+osascript -e 'display dialog "All ready to go!" with title "Titanbound" buttons {"OK"} default button "OK"'
