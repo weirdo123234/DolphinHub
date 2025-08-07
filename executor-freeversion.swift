@@ -1,4 +1,4 @@
-osascript -e 'display dialog "Downloading..." with title "Executor" buttons {"OK"} default button "OK"'
+osascript -e 'display dialog "Downloading Executor..." with title "Executor" buttons {"OK"} default button "OK"'
 
 osascript -e '
 tell application "Discord"
